@@ -26,6 +26,8 @@ Login to line developers, and create 3 LIFF for 3 different size.
   - size: Full
   - Endpoint URL: https://yourwebsite/liff_entry
 
+Since the compact size is default. You could only create the compact one.
+
 ## Set environment variables
 
 Install dotenv-rails gem
