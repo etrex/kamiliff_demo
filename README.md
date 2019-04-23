@@ -42,6 +42,8 @@ LIFF_TALL=line://app/for_tall_liff_id
 LIFF_FULL=line://app/for_full_liff_id
 ```
 
+You could choose another setting method.
+
 ## Generate simple todo resource
 
 Create todo resource
@@ -53,9 +55,7 @@ rails db:migrate
 
 ## Create LIFF view
 
-Create liff view for new action.
-
-`app/views/todos/new.liff.erb`
+Create liff view for new action at `app/views/todos/new.liff.erb`.
 
 ```
 <%= render "todos/form.html", todo: @todo %>
@@ -85,6 +85,8 @@ Add following content into `app/views/todos/index.html.erb`.
 <%= liff_path(path: new_todo_path) %>
 ```
 
-Copy the url and paste to any LINE chatroom.
+Copy this url and paste to any LINE chatroom.
 
-Click the url in LINE app.
+Click this url in LINE app.
+
+The correct usage is put this url into Rich Manu or Flex Message or Template Message with url action.
