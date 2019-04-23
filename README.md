@@ -1,5 +1,7 @@
 # How To Use
 
+This is a demo for kamiliff: [https://github.com/etrex/kamiliff](https://github.com/etrex/kamiliff)
+
 Start from `rails new`
 
 ```
