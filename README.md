@@ -94,3 +94,13 @@ Copy this url and paste to any LINE chatroom.
 Click this url in LINE app.
 
 The correct usage is put this url into Rich Manu or Flex Message or Template Message with url action.
+
+## How to change LIFF size
+
+You can change the size of LIFF by adding a parameter to the helper method, like this:
+
+```
+<%= liff_path(path: new_todo_path, liff_size: :compact) %>
+<%= liff_path(path: new_todo_path, liff_size: :tall) %>
+<%= liff_path(path: new_todo_path, liff_size: :full) %>
+```
